@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+        h1{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        }
+        h3{
+          display: inline-block;
+          position:relative;
+       
+        }
+        h5{
+          display: inline;
+          position: relative;
+         
+        }
+         a{
+           text-decoration: none;
+           list-style-type: none;
+           position: absolute;
+           color: black;
+           right: 50px;
+           
+        }
+        a:hover{
+            background-color: gray;
+            width: 100px;
+        }
+        
+        .first{
+          display: inline; 
+          float: right;
+          position: absolute;
+          
+        }
+        .second{
+          position: absolute;
+          float: right;
+          left: 320px;
+          display: inline;
+        
+        }
+        .third{
+          position: absolute;
+          float: right;
+          left: 620;
+          display: inline;
+        }
+        .fourth{
+          position: absolute;
+          float: right;
+          left: 930px;
+          display: inline;
+        }
+        .hi{
+          width: 500px;
+          height: 200px;
+          display: grid;  
+          gap: 4px;       
+         grid-template-columns: auto auto auto auto;
+         grid-template-rows: auto auto ;
+         
+        }
+        
+        input{
+          width: 100%;
+          margin: 5px;
+          padding: 10px;
+         color: black;
+         display: inline-block;
+        }
+        footer{
+          padding: 20px;
+          border: solid black;
+          background-color: black;
+          margin: 5px;
+          width: 100%;
+          color: white;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        @media only screen and (max-width:200px){
+          /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+        }
+          
+        
+    </style>
+</head>
+<body>
+
+    <img id="" src="https://www.w3schools.com/w3images/architect.jpg" alt="" width="100%" style="margin-top: 20px;">
+    
+    <a style="left: 5px;">RS Architect</a></li>
+   <a href="#projects" style="right: 150px;">Projects</a></li>
+    <a href="#about" style="right: 80px;">About</a></li>
+    <a href="#contact" style="right: 10px;">Contact</a></li>
+    <h1><b style="border: solid black; background-color: black; color: white;">RS</b> Architect</h1>
+    <div id="projects">
+      <h2>Projects</h2></div>
+   <div class="hi">
+    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="" width="200px">
+    <img src="https://www.w3schools.com/w3images/house2.jpg" alt="" width="200px">
+    <img src="https://www.w3schools.com/w3images/house3.jpg" alt="" width="200px">
+    <img src="https://www.w3schools.com/w3images/house3.jpg" alt="" width="200px">
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="" width="200px">
+    <img src="https://www.w3schools.com/w3images/house2.jpg" alt="" width="200px">
+    <img src="https://www.w3schools.com/w3images/house4.jpg" alt="" width="200px">
+    <img src="https://www.w3schools.com/w3images/house5.jpg" alt="" width="200px">
+   </div><br><br><br>
+    
+  <div id="about">
+    <h2>About</h2>
+    <p style="text-align: justify;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div id="one">
+    <img src="https://www.w3schools.com/w3images/team2.jpg" alt="" width="300px">
+    <img  src="https://www.w3schools.com/w3images/team1.jpg" alt="" width="300px">
+    <img src="https://www.w3schools.com/w3images/team3.jpg" alt="" width="300px">
+    <img src="https://www.w3schools.com/w3images/team4.jpg" alt="" width="300px">
+  </div>
+ 
+        <div>
+
+        <h3 >John Doe</h3>
+        <h3 style=" left: 223;" >Jane Doe</h3>
+        <h3 style="left: 449">Mike Ross</h3>
+        <h3 style=" left: 670;">Dan Star</h3><br>
+        <h5 >CEO&Architect</h4>
+        <h5 style="left: 210;">Architect</h4>
+        <h5 style="left: 450;">Architect</h4>
+        <h5 style="left: 700;">Architect</h4><br>
+      </div>
+        <div class="first"><p>Phasellus eget enim eu lectus faucibus <br>
+        vestibulum. Suspendisse sodales <br>
+        pellentesque elementum.</p> </div>
+        <div class="second">
+        <p>Phasellus eget enim eu lectus faucibus <br>
+        vestibulum. Suspendisse sodales <br>
+        pellentesque elementum.</p></div>
+      <div class="third">
+       <p>Phasellus eget enim eu lectus faucibus <br>
+       vestibulum. Suspendisse sodales <br>
+      pellentesque elementum.</p></div>
+      <div class="fourth">
+       <p>Phasellus eget enim eu lectus faucibus <br>
+       vestibulum. Suspendisse sodales <br>
+       pellentesque elementum.</p></div><br><br><br><br>
+<div id="contact">
+      <h2>Contact</h2>
+      <p>Lets get in touch and talk about your next project. </p></div>
+      <input type="text" name="firstname" placeholder="Name">
+      <input type="text" name="" id="" placeholder="Email">
+      <input type="text" placeholder="Subject">
+      <input type="text" name="" id="" placeholder="Comment">
+      <p style="margin: 5px; padding: 5px; border: solid black; background-color: black; color: white; width: 150px; text-align: center;">Send Message</p><br><br>
+      <center><img src="https://www.w3schools.com/w3images/map.jpg" alt="" width="98%" ></center>
+      <footer>Powered by <u>Ram.s</u></footer>
+
+</body>
+</html>

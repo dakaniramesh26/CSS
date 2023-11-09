@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @keyframes identifier {
+            from{background-color: red; left: 200px; top: 0px;}
+            to{background-color: rgb(17, 0, 255); left: 0px; top: 0px;}
+            
+        }
+       h1{
+        width: 200px;
+        
+        text-align: center;
+        position: relative;
+        padding: 20px;
+        animation-name: identifier;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        animation-direction: alternate;
+       }
+       @keyframes identifier1 {
+            from{background-color: red; left: 200px; top: 0px;}
+            to{background-color: yellow; left:0px; top: 0px;}
+            
+        }
+       .h1{
+        width: 200px;
+        
+        text-align: center;
+        position: relative;
+       
+        animation-name: identifier1;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        animation-delay: 2s;
+        animation-direction:alternate-reverse;
+       }
+    </style>
+</head>
+<body>
+    <h1>hello</h1>
+    <h1 class="h1">world</h1>
+</body>
+</html>
